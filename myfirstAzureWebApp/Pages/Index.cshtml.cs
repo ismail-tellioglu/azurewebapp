@@ -19,6 +19,7 @@ namespace myfirstAzureWebApp.Pages
         public void OnGet()
         {
              employess = con.Employees.ToList();
+            employess.ElementAt(0).Address = "Halkalı";
         }
     }
 }

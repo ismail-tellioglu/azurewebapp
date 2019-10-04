@@ -96,9 +96,10 @@
 </div>
 
 <div>
-    @foreach(var a in Model.employess)
+    @foreach (var a in Model.employess)
     {
-        <p>@a.Name  @a.CompanyName</p> 
+        <p>@a.Name  @a.CompanyName</p>
+        <p>@a.Address</p>
         <p>Continious Deployement Expert</p>
     }
 </div>
